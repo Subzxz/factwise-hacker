@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <h1>Celebrity Management🐱‍💻<h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list-view">
+            <input type="text" id="search" placeholder="Search user">
+            <div id="userList"></div>
+        </div>
+
+        <div id="userDetails" class="user-details hidden">
+            <div class="user-card">
+                <img src="" alt="User Picture" id="userPicture">
+                <h2 id="userName"></h2>
+                <div class="user-info">
+                    <p><strong>Age:</strong> <span id="userAge"></span></p>
+                    <p><strong>Gender:</strong> <span id="userGender"></span></p>
+                    <p><strong>Country:</strong> <span id="userCountry"></span></p>
+                    <p><strong>Description:</strong> <span id="userDescription"></span></p>
+                </div>
+                <div class="buttons">
+                    <button id="editButton">Edit</button>
+                    <button id="deleteButton">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="editUser" class="edit-user hidden">
+            <form id="editUserForm">
+                <label for="editFirst">First Name:</label>
+                <input type="text" id="editFirst" required>
+                <label for="editLast">Last Name:</label>
+                <input type="text" id="editLast" required>
+                <label for="editDob">Date of Birth:</label>
+                <input type="date" id="editDob" required>
+                <label for="editGender">Gender:</label>
+                <input type="text" id="editGender" required>
+                <label for="editCountry">Country:</label>
+                <input type="text" id="editCountry" required>
+                <label for="editDescription">Description:</label>
+                <textarea id="editDescription" required></textarea>
+                <div class="buttons">
+                    <button type="submit">Save</button>
+                    <button type="button" id="cancelEditButton">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="deleteDialog" class="delete-dialog hidden">
+            <p>Are you sure you want to delete?</p>
+            <div class="buttons">
+                <button id="confirmDeleteButton">Delete</button>
+                <button id="cancelDeleteButton">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
