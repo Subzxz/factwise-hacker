@@ -1,4 +1,6 @@
-this project is a Celebrity Management System implemented using HTML, CSS, JavaScript, and ReactJS. It allows users to view and manage details of famous celebrities through a web interface.
+*ReactJS FILE ATTACHED KINDLY LOOK THROUGH*
+
+This project is a Celebrity Management System implemented using HTML, CSS, JavaScript, and ReactJS. It allows users to view and manage details of famous celebrities through a web interface.
 
 Technologies Used
 HTML: Used for structuring the web pages and defining the user interface elements.
