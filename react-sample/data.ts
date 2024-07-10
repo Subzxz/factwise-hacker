@@ -239,4 +239,16 @@ export const data = [
     description:
       "This character description generator will generate a fairly random description of a belonging to Marjella Stuijt. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Marjella Stuijt.",
   },
+  {
+    id: 21,
+    first: "Mohammed",
+    last: "Aman Sajith",
+    dob: "2003-09-29",
+    gender: "male",
+    email: "aman@suvan.com",
+    picture: "https://avatars.githubusercontent.com/u/164071955?v=4",
+    country: "India",
+    description:
+      "This character description generator will generate a fairly random description of a belonging to Mohammed Aman Sajith. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Marjella Stuijt.",
+  },
 ];
